@@ -60,3 +60,44 @@ A comprehensive MERN stack application designed to streamline campus placement p
 ```bash
 git clone https://github.com/Naveen-Beniwal/placement-portal
 cd placement-portal
+
+🔑 Key Components
+Data Export System
+Multiple format support (CSV/Excel)
+Custom date range filtering
+Field selection options
+Progress tracking
+Robust error handling
+Analytics Dashboard
+Real-time statistical analysis
+Interactive visualization
+Department-wise metrics
+Trend analysis
+Status distribution charts
+Security Features
+JWT authentication
+Role-based access control
+Protected API endpoints
+Input validation
+Comprehensive error handling
+🔮 Future Enhancements
+Email notification system
+Document upload functionality
+Advanced filtering options
+Bulk operations support
+Mobile application
+Interview scheduling system
+Enhanced performance analytics
+PDF report generation
+🛠️ Development Tools
+Visual Studio Code
+MongoDB Compass
+Postman for API testing
+Git for version control
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👥 Contact
+Developer: Naveen-Beniwal
+GitHub: github.com/Naveen-Beniwal
+Demo: your-demo-url.com
