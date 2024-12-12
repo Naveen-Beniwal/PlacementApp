@@ -1,69 +1,62 @@
-# Placement Portal - Campus Recruitment Management System
+# 🎓 Placement Portal - Campus Recruitment Management System
 
-A comprehensive MERN stack application facilitating campus placements by connecting students, recruiters, and administrators through an intuitive interface with analytics and data export capabilities.
+<div align="center">
 
-## Technology Stack
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=flat&logo=material-ui&logoColor=white)
 
-### Backend
-- Node.js & Express.js (RESTful API)
-- MongoDB with Mongoose ODM
-- JWT Authentication
-- Role-based access control
+</div>
 
-### Frontend
-- React 18
-- Material-UI v5
-- Chart.js for analytics
-- XLSX for data export
-- Axios for API calls
+A comprehensive MERN stack application designed to streamline campus placement processes by providing a centralized platform for students, recruiters, and administrators. Features include real-time analytics, interactive dashboards, and efficient data management capabilities.
 
-## Features & Implementation
+## ✨ Key Features
 
-### Admin Dashboard
-- Real-time placement analytics
-- Interactive statistics using Chart.js
-- Data export functionality (CSV/Excel)
-- User management system
+### 👨‍💼 Admin Dashboard
+- Real-time placement analytics with interactive Chart.js visualizations
+- Comprehensive data export system (CSV/Excel)
+- User management and role-based access control
+- Interactive statistics and department-wise analysis
 
-### Student Interface
-- Profile management with academic details
-- Job application system with status tracking
-- Department-specific opportunities
+### 👨‍🎓 Student Interface
+- Detailed profile management with academic information
+- Real-time job application tracking
+- Department-specific opportunity filtering
+- Personal dashboard with application status
 
-### Recruiter Portal
-- Job posting management
-- Application review system
-- Candidate shortlisting
+### 🏢 Recruiter Portal
+- Streamlined job posting management
+- Efficient application review system
+- Advanced candidate shortlisting tools
+- Company profile management
 
-## Project Setup
+## 🛠️ Technology Stack
+
+### Backend Infrastructure
+- **Runtime & Framework:** Node.js with Express.js
+- **Database:** MongoDB with Mongoose ODM
+- **Authentication:** JWT with role-based access
+- **API:** RESTful architecture
+
+### Frontend Development
+- **Framework:** React 18
+- **UI Library:** Material-UI v5
+- **Data Visualization:** Chart.js
+- **Data Handling:** XLSX for exports, Axios for API integration
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js v16+
+- Node.js (v16 or higher)
 - MongoDB
-- npm/yarn
+- npm or yarn package manager
 
-### Installation Commands
+### Installation
+
+1. Clone the repository
 ```bash
-# Clone Repository
-git clone https://github.com/yourusername/placement-portal
+git clone https://github.com/Naveen-Beniwal/placement-portal
 cd placement-portal
-
-# Backend Setup
-cd backend
-npm install
-
-# Configure Environment
-echo "MONGODB_URI=your_mongodb_uri\nJWT_SECRET=your_secret_key\nPORT=5000" > .env
-
-# Frontend Setup
-cd ../frontend
-npm install
-
-# Start Development (Run in separate terminals)
-# Terminal 1
-cd backend
-npm start
-
-# Terminal 2
-cd frontend
-npm start
