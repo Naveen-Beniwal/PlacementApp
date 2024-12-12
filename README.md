@@ -54,12 +54,6 @@ A comprehensive MERN stack application designed to streamline campus placement p
 - MongoDB
 - npm or yarn package manager
 
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/Naveen-Beniwal/placement-portal
-cd placement-portal
 
 🔑 Key Components
 Data Export System
@@ -101,3 +95,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Developer: Naveen-Beniwal
 GitHub: github.com/Naveen-Beniwal
 Demo: your-demo-url.com
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/Naveen-Beniwal/placement-portal
+cd placement-portal
