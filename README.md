@@ -10,6 +10,13 @@
 
 A sophisticated MERN stack application designed to revolutionize campus placement processes through advanced analytics, real-time tracking, and seamless integration between students, recruiters, and administrators.
 
+## 📑 Table of Contents
+- [Core Features](#-core-features--technical-highlights)
+- [Technical Stack](#-technical-stack)
+- [Installation Guide](#-installation-guide)
+- [Technical Skills](#-key-technical-skills)
+- [High-Impact Features](#-high-impact-features)
+
 ## 🌟 Core Features & Technical Highlights
 
 ### 📊 Advanced Analytics System
@@ -53,47 +60,49 @@ A sophisticated MERN stack application designed to revolutionize campus placemen
 - **HTTP Client:** Axios with interceptors
 - **Forms:** Formik with Yup validation
 
-🔧 Key Technical Skills Demonstrated
-Backend Development
-✨ RESTful API Architecture
-✨ Advanced MongoDB Aggregations
-✨ Custom Authentication Middleware
-✨ Complex Data Modeling
-✨ Error Handling Patterns
-Frontend Excellence
-✨ Custom Chart Components
-✨ Material-UI Theming
-✨ Responsive Design
-✨ Real-time Data Updates
-✨ Form Validation
-DevOps & Tools
-✨ Git Version Control
-✨ MongoDB Atlas Integration
-✨ API Testing with Postman
-✨ Environment Configuration
-✨ Error Logging & Monitoring
-🌟 High-Impact Features
-Real-time Analytics Dashboard
+## 🔧 Key Technical Skills Demonstrated
+### Backend Development
+- ✨ RESTful API Architecture
+- ✨ Advanced MongoDB Aggregations
+- ✨ Custom Authentication Middleware
+- ✨ Complex Data Modeling
+- ✨ Error Handling Patterns
 
-Custom-built visualization components
-Dynamic data updates
-Interactive filters
-Advanced Role-Based System
+### Frontend Excellence
+- ✨ Custom Chart Components
+- ✨ Material-UI Theming
+- ✨ Responsive Design
+- ✨ Real-time Data Updates
+- ✨ Form Validation
 
-Multi-level access control
-Dynamic permission management
-Secure route protection
-Data Export Engine
+### DevOps & Tools
+- ✨ Git Version Control
+- ✨ MongoDB Atlas Integration
+- ✨ API Testing with Postman
+- ✨ Environment Configuration
+- ✨ Error Logging & Monitoring
 
-Custom export formats
-Batch processing
-Progress tracking
-Profile Management
+## 🌟 High-Impact Features
+### Real-time Analytics Dashboard
+- Custom-built visualization components
+- Dynamic data updates
+- Interactive filters
 
-Rich text editing
-File upload system
-Version control
-Made with 💻 by Naveen-Beniwal
+### Advanced Role-Based System
+- Multi-level access control
+- Dynamic permission management
+- Secure route protection
+
+### Data Export Engine
+- Custom export formats
+- Batch processing
+- Progress tracking
+
+### Profile Management
+- Rich text editing
+- File upload system
+- Version control
+
 ## ⚙️ Installation Guide
 
 1. **Clone & Navigate**
