@@ -31,14 +31,14 @@ A sophisticated MERN stack application designed to revolutionize campus placemen
 - Custom date range filtering
 - Advanced field selection options
 - Real-time progress tracking
-- Error handling with recovery mechanisms
+- Error handling 
 
 ### 🛡️ Enterprise-Grade Security
 - JWT-based authentication system
 - Role-based access control (RBAC)
 - Protected API endpoints with middleware
 - Request validation and sanitization
-- Helmet.js for enhanced security headers
+
 
 ## 💻 Technical Stack
 
@@ -47,9 +47,6 @@ A sophisticated MERN stack application designed to revolutionize campus placemen
 - **Database:** MongoDB with Mongoose ODM
 - **Authentication:** JWT with custom middleware
 - **Security:** 
-  - Helmet.js for HTTP headers
-  - Morgan for logging
-  - CORS protection
   - Error handling middleware
 
 ### Frontend Implementation
@@ -58,7 +55,6 @@ A sophisticated MERN stack application designed to revolutionize campus placemen
 - **State Management:** Context API
 - **Data Visualization:** Chart.js with custom themes
 - **HTTP Client:** Axios with interceptors
-- **Forms:** Formik with Yup validation
 
 ## 🔧 Key Technical Skills Demonstrated
 ### Backend Development
