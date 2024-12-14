@@ -1,107 +1,132 @@
-# 🎓 Placement Portal - Campus Recruitment Management System
+# 🎓 Placement Portal - Campus Recruitment Management System  
 
-<div align="center">
+<div align="center">  
+  <a href="https://github.com/Naveen-Beniwal/PlacementApp">
+    <img src="https://img.shields.io/badge/JavaScript-98.6%25-yellow.svg" alt="JavaScript Usage">
+  </a>
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
+  </a>
+  <a href="https://github.com/Naveen-Beniwal/PlacementApp/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  </a>  
+</div>  
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-98.6%25-yellow.svg)](https://github.com/Naveen-Beniwal/PlacementApp)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Naveen-Beniwal/PlacementApp/pulls)
+---
 
-</div>
+A state-of-the-art **MERN stack application** designed to revolutionize the campus recruitment process by integrating **real-time analytics**, **secure role-based access**, and **seamless user interactions** for students, recruiters, and administrators.
 
-A sophisticated MERN stack application designed to revolutionize campus placement processes through advanced analytics, real-time tracking, and seamless integration between students, recruiters, and administrators.
+## 📑 Table of Contents  
+- [Core Features](#-core-features--technical-highlights)  
+- [Technical Stack](#-technical-stack)  
+- [Key Skills Demonstrated](#-key-skills-demonstrated)  
+- [High-Impact Features](#-high-impact-features)  
+- [Installation Guide](#%EF%B8%8F-installation-guide)  
+- [Contributing](#%EF%B8%8F-contributing)  
+- [License](#-license)  
 
-## 📑 Table of Contents
-- [Core Features](#-core-features--technical-highlights)
-- [Technical Stack](#-technical-stack)
-- [Installation Guide](#-installation-guide)
-- [Technical Skills](#-key-technical-skills)
-- [High-Impact Features](#-high-impact-features)
+---
 
-## 🌟 Core Features & Technical Highlights
+## 🌟 Core Features & Technical Highlights  
 
-### 📊 Advanced Analytics System
-- Real-time statistical analysis with Chart.js integration
-- Interactive visualization dashboard
-- Department-wise placement metrics
-- Monthly trend analysis using Line Charts
-- Status distribution through Doughnut Charts
+### 📊 Real-Time Analytics Dashboard  
+- Integrated **Chart.js** for interactive and customizable data visualization.  
+- Department-wise placement metrics and **monthly trends** for better decision-making.  
+- **Status distribution insights** using Doughnut and Pie Charts.  
 
-### 🔄 Data Management & Export
-- Multi-format export system (CSV/Excel)
-- Custom date range filtering
-- Advanced field selection options
-- Real-time progress tracking
-- Error handling 
+### 🔒 Secure Role-Based Access  
+- Multi-level **RBAC (Role-Based Access Control)** system ensuring only authorized access.  
+- **JWT-based authentication** to protect sensitive data.  
+- Secured routes with custom middleware.  
 
-### 🛡️ Enterprise-Grade Security
-- JWT-based authentication system
-- Role-based access control (RBAC)
-- Protected API endpoints with middleware
-- Request validation and sanitization
+### 📄 Dynamic Data Export  
+- Multi-format export options: **CSV, Excel**, and **custom data ranges**.  
+- Advanced filters for precise data export.  
+- Batch export functionality with **real-time progress tracking** and error handling.  
 
+### 📂 Comprehensive Profile Management  
+- Rich text-enabled profile editing.  
+- File uploads with **Cloudinary integration**.  
+- Version-controlled updates to maintain data consistency.  
 
-## 💻 Technical Stack
+### 🛠️ Customizable Platform  
+- Tailored to support institutional needs, bypassing the "one-size-fits-all" limitations of commercial solutions.  
+- Scales to handle **5,000+ active users** during peak recruitment periods.  
 
-### Backend Architecture
-- **Core Runtime:** Node.js with Express.js
-- **Database:** MongoDB with Mongoose ODM
-- **Authentication:** JWT with custom middleware
-- **Security:** 
-  - Error handling middleware
+---
 
-### Frontend Implementation
-- **Framework:** React 18 with Hooks
-- **UI Framework:** Material-UI v5
-- **State Management:** Context API
-- **Data Visualization:** Chart.js with custom themes
-- **HTTP Client:** Axios with interceptors
+## 💻 Technical Stack  
 
-## 🔧 Key Technical Skills Demonstrated
-### Backend Development
-- ✨ RESTful API Architecture
-- ✨ Advanced MongoDB Aggregations
-- ✨ Custom Authentication Middleware
-- ✨ Complex Data Modeling
-- ✨ Error Handling Patterns
+### Backend Architecture  
+- **Core Framework**: Node.js with Express.js  
+- **Database**: MongoDB with Mongoose ODM  
+- **Authentication**: JWT with custom middleware for role-based access.  
+- **Security Enhancements**:  
+  - Input sanitization with middleware.  
+  - Centralized error-handling mechanisms.  
 
-### Frontend Excellence
-- ✨ Custom Chart Components
-- ✨ Material-UI Theming
-- ✨ Responsive Design
-- ✨ Real-time Data Updates
-- ✨ Form Validation
+### Frontend Implementation  
+- **Framework**: React 18 with modern hooks.  
+- **UI Framework**: Material-UI v5 for responsive and consistent design.  
+- **State Management**: Context API for seamless global state sharing.  
+- **Data Visualization**: Chart.js for engaging and insightful dashboards.  
+- **HTTP Client**: Axios with interceptors for secure API calls.  
 
-### DevOps & Tools
-- ✨ Git Version Control
-- ✨ MongoDB Atlas Integration
-- ✨ API Testing with Postman
-- ✨ Environment Configuration
-- ✨ Error Logging & Monitoring
+### DevOps & Tools  
+- Git and GitHub for version control and collaboration.  
+- MongoDB Atlas for scalable cloud database management.  
+- Postman for API testing and debugging.  
+- Environment variables for secure configuration management.  
 
-## 🌟 High-Impact Features
-### Real-time Analytics Dashboard
-- Custom-built visualization components
-- Dynamic data updates
-- Interactive filters
+---
 
-### Advanced Role-Based System
-- Multi-level access control
-- Dynamic permission management
-- Secure route protection
+## 🔧 Key Skills Demonstrated  
 
-### Data Export Engine
-- Custom export formats
-- Batch processing
-- Progress tracking
+### Backend Development  
+- RESTful API architecture with optimized CRUD operations.  
+- Advanced **MongoDB aggregations** for custom reporting and analytics.  
+- Middleware for **authentication**, **error handling**, and **route protection**.  
 
-### Profile Management
-- Rich text editing
-- File upload system
-- Version control
+### Frontend Development  
+- Dynamic data visualization with **custom Chart.js components**.  
+- Fully responsive and mobile-friendly UI built with **Material-UI**.  
+- Real-time updates with Axios and React Hooks.  
 
-## ⚙️ Installation Guide
+### Security  
+- JWT-based authentication with **refresh tokens** for session management.  
+- Sanitization of user input to prevent common vulnerabilities like **SQL Injection** and **XSS attacks**.  
 
-1. **Clone & Navigate**
-   ```bash
-   git clone https://github.com/Naveen-Beniwal/PlacementApp
-   cd PlacementApp
+---
+
+## 🌟 High-Impact Features  
+
+### **Real-Time Analytics Dashboard**  
+- Department-wise placement metrics.  
+- Visualization of key performance indicators with interactive charts.  
+- Dynamic filtering and drill-down options.  
+
+### **Role-Based System**  
+- Administrator, recruiter, and student access with specific permissions.  
+- Full control over user roles and data access.  
+
+### **Data Export Engine**  
+- Multi-format export (CSV, Excel).  
+- Batch processing for large datasets.  
+- Robust error handling and progress tracking for seamless user experience.  
+
+### **Custom Reports**  
+- Generate detailed reports with custom filters.  
+- Export on-demand data snapshots.  
+
+### **Profile Management**  
+- Comprehensive profile editing with **file upload capabilities**.  
+- Cloud-based storage for profile images.  
+
+---
+
+## ⚙️ Installation Guide  
+
+1. **Clone the Repository**  
+   ```bash  
+   git clone https://github.com/Naveen-Beniwal/PlacementApp.git  
+   cd PlacementApp  
