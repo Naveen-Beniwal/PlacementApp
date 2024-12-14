@@ -123,14 +123,14 @@ A state-of-the-art **MERN stack application** designed to revolutionize the camp
 - Cloud-based storage for profile images.  
 
 ---
-💰 Financial Impact
-Cost Savings:
-₹5,00,000/year Saved: Eliminates the need for expensive commercial solutions like TCS ION or Superset, which charge hefty licensing fees.
-₹1,50,000/year Saved: Replaces third-party analytics tools with an integrated real-time analytics system powered by Chart.js.
-Operational Cost Reduction: Automates 80% of manual tasks, significantly reducing administrative workload and associated costs.
-Improved Efficiency:
-Enhanced data accuracy by 95%, minimizing errors that often lead to costly rework.
-Scales seamlessly to support 5,000+ active users, avoiding infrastructure upgrades and downtime expenses.
+##💰 Financial Impact
+Cost Savings
+-₹5,00,000/year Saved: Eliminates the need for expensive commercial solutions like TCS ION or Superset, which require hefty licensing fees.
+-₹1,50,000/year Saved: Replaces third-party analytics tools with a built-in real-time analytics system powered by Chart.js.
+-Operational Cost Reduction: Automates 80% of manual tasks, significantly lowering administrative workload and associated expenses.
+##Improved Efficiency
+-Enhanced data accuracy by 95%, reducing costly errors and rework.
+-Scales seamlessly to support 5,000+ active users, avoiding additional infrastructure upgrades and downtime costs.
 ## ⚙️ Installation Guide  
 
 1. **Clone the Repository**  
