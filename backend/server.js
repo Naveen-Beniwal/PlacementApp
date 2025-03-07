@@ -13,9 +13,10 @@ app.use(
   cors({
     origin: [
       "https://placement-portal-seven.vercel.app",
-      "http://localhost:3000", // for local development
-    ],
+      process.env.NODE_ENV === "development" && "http://localhost:3000",
+    ].filter(Boolean),
     credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
 );
 app.use(express.json());
@@ -27,6 +28,7 @@ mongoose
   .connect(process.env.MONGODB_URI || "mongodb://localhost/placement-portal", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    retryWrites: true,
   })
   .then(() => console.log("MongoDB Connected Successfully"))
   .catch((err) => {
