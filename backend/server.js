@@ -71,6 +71,9 @@ app.use((err, req, res, next) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.status(200).json({ message: "Server connected" });
+});
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
