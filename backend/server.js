@@ -13,14 +13,22 @@ app.use(
   cors({
     origin: [
       "https://placement-portal-seven.vercel.app",
-      process.env.NODE_ENV === "development" && "http://localhost:3000",
-    ].filter(Boolean),
+      "http://localhost:3000",
+    ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    exposedHeaders: ["Content-Range", "X-Content-Range"],
+    maxAge: 86400, // 24 hours
   })
 );
 app.use(express.json());
-app.use(helmet());
+app.use(
+  helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+    crossOriginEmbedderPolicy: false,
+  })
+);
 app.use(morgan("dev"));
 
 // MongoDB Connection
