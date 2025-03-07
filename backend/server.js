@@ -9,7 +9,15 @@ require("dotenv").config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://placement-portal-seven.vercel.app",
+      "http://localhost:3000", // for local development
+    ],
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use(helmet());
 app.use(morgan("dev"));
